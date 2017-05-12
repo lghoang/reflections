@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    info: terminal commands to compare differences between 2 files:
+    windows = FC <file1> <file2>; linux and mac = diff -u <file1> <file2>
+    ans: SAVES TIME locating a bug.  Instead of comparing everything line in the
+    2 files manually, you only need to review the lines that have changed.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can review your or the programmer's thought processes (i.e. review code
+    added to implement a feature.)  You can pinpoint bugs that appeared when
+    new features were introduced (i.e. different versions of a application).
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Each change/version is meaningful.  Like a step in a process, which can be
+    easily identified and labelled.
+    Automatically saved versions can save incomplete work, possibly in the
+    middle of typing a line of code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    They serve different communities.  It is essential to track an entire
+    resposity of files (code) since every file is interconnected and vital
+    for the software application to work/compile correctly.
+    Google Docs is more focused on users storing pictures, videos, word
+    documents, spreadsheets, etc. which are traditionally not inter-dependent.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log - shows a summary of commits with a description for each change.
+    git diff - shows the different between 2 files (you can iterally see the
+    changes by 'diff' the appropriate files)
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You know you can always go back to the previous version.
+    Can take more risks.
+    (i.e. an Undo command for programming)
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    re-training to be a software engineer.  coding!
